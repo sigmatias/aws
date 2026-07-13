@@ -1,0 +1,8 @@
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+page.waitForTimeout: Target page, context or browser has been closed
+    at D:\CLAUDE\tarea-prueba\.pw-issabel\local-slack-live.js:90:18
+
+Node.js v22.22.2

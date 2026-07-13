@@ -1,0 +1,10 @@
+﻿{
+    "InstanceId":  "i-06ebc86e49059d028",
+    "TempPublicIp":  null,
+    "PrivateIp":  "172.31.69.103",
+    "SgId":  "sg-059b01a0753b4ac5c",
+    "KeyPath":  "D:\\CLAUDE\\tarea-prueba\\aws\\asterisk-ep1.pem",
+    "Region":  "us-east-1",
+    "VpcId":  "vpc-08168c167f7757cc7",
+    "SubnetId":  "subnet-0e6641cfdb38f3649"
+}

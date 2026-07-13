@@ -1,0 +1,21 @@
+[rtpengine]
+# Two interfaces:
+#   pub -> public EIP (faces teletrabajadores, SRTP)
+#   int -> private subnet IP (faces PBX, RTP plano)
+# Placeholders sustituidos por user-data:
+interface = pub/__SBC_PUBLIC_IP__;int/__SBC_PRIVATE_IP__
+
+# Control port para que Kamailio le hable
+listen-ng = 127.0.0.1:22222
+
+# Rango UDP publico para los streams RTP/SRTP
+port-min = 30000
+port-max = 31000
+
+# Log a journald
+log-level = 6
+log-stderr = false
+
+# Modo daemon
+foreground = false
+table = 0

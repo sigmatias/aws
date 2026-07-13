@@ -1,0 +1,8 @@
+{
+  "name": "pw-issabel",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "playwright": "1.60.0"
+  }
+}

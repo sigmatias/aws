@@ -1,0 +1,8 @@
+﻿{
+    "PublicIp":  "44.215.149.184",
+    "Region":  "us-east-1",
+    "AllocId":  "eipalloc-0b1a67d297e53bc5f",
+    "InstanceId":  "i-0b7157042b4333d67",
+    "SgId":  "sg-0dbe0764551cf6440",
+    "PrivateIp":  "172.31.3.57"
+}

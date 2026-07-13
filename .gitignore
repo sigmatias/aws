@@ -1,0 +1,32 @@
+# Credenciales y secretos - NUNCA commitear
+*.pem
+*.key
+.env
+.env.*
+**/eft-login-state.json
+**/eft-login-status.json
+**/eft-login-slack-status.json
+**/noip-creds.json
+**/*-status.json
+
+# Perfiles de navegador persistentes (contienen cookies/sesiones logueadas reales)
+.pw-issabel/chrome-ep3-profile/
+.pw-issabel/node_modules/
+**/chrome_ep3_profile/
+**/chrome_ep3_profile_clean/
+**/chrome_issabel_profile/
+**/chrome_issabel_profile_clean/
+
+# Instaladores portables de MicroSIP (binarios de terceros, no codigo propio)
+**/microsip_profiles/
+
+# Node / Playwright
+node_modules/
+D:/caches/ms-playwright/
+
+# Python
+__pycache__/
+*.pyc
+
+# Capturas de pantalla de debug de Playwright (no son la evidencia oficial del informe)
+.pw-issabel/*.png

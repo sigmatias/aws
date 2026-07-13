@@ -1,0 +1,6 @@
+$ip = "44.213.63.39"
+$key = "aws\asterisk-ep1.pem"
+ssh -o StrictHostKeyChecking=no -o ConnectTimeout=10 -i $key ubuntu@$ip "hostname"
+ssh -o StrictHostKeyChecking=no -o ConnectTimeout=10 -i $key ubuntu@$ip "sudo docker ps"
+ssh -o StrictHostKeyChecking=no -o ConnectTimeout=10 -i $key ubuntu@$ip "sudo docker exec issabel asterisk -rx 'core show version'"
+ssh -o StrictHostKeyChecking=no -o ConnectTimeout=10 -i $key ubuntu@$ip "sudo docker exec issabel asterisk -rx 'sip show peers'"
