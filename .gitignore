@@ -8,6 +8,13 @@
 **/eft-login-slack-status.json
 **/noip-creds.json
 **/*-status.json
+asterisk-config/manager.conf
+asterisk-config/pjsip.conf
+asterisk-config/pjsip-ep2.conf
+tools/ami_monitor.py
+tools/prepare_microsip_profiles.ps1
+.pw-issabel/create-extensions.js
+.pw-issabel/fix-secrets.js
 
 # Perfiles de navegador persistentes (contienen cookies/sesiones logueadas reales)
 .pw-issabel/chrome-ep3-profile/
